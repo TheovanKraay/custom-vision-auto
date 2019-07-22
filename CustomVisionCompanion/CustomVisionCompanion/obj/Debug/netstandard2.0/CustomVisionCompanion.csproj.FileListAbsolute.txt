@@ -1,0 +1,17 @@
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\bin\Debug\netstandard2.0\CustomVisionCompanion.deps.json
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\bin\Debug\netstandard2.0\CustomVisionCompanion.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\bin\Debug\netstandard2.0\CustomVisionCompanion.pdb
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\bin\Debug\netstandard2.0\Plugin.CustomVisionEngine.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\bin\Debug\netstandard2.0\Plugin.CustomVisionEngine.pdb
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\CustomVisionCompanion.csprojAssemblyReference.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\Common\Styles.xaml.g.cs
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\CustomVisionCompanion.csproj.CoreCompileInputs.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\CustomVisionCompanion.AssemblyInfoInputs.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\CustomVisionCompanion.AssemblyInfo.cs
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\CustomVisionCompanion.csproj.CopyComplete
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\CustomVisionCompanion.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\obj\Debug\netstandard2.0\CustomVisionCompanion.pdb

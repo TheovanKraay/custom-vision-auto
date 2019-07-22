@@ -1,0 +1,1 @@
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\CustomVisionCompanion.UWP.csproj;x86

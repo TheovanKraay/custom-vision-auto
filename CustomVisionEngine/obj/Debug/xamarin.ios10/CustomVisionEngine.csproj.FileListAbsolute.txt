@@ -1,0 +1,11 @@
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\bin\Debug\xamarin.ios10\Plugin.CustomVisionEngine.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\bin\Debug\xamarin.ios10\Plugin.CustomVisionEngine.pdb
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\bin\Debug\xamarin.ios10\Newtonsoft.Json.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\optimized\
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\CustomVisionEngine.csprojAssemblyReference.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\CustomVisionEngine.csproj.CoreCompileInputs.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\CustomVisionEngine.AssemblyInfoInputs.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\CustomVisionEngine.AssemblyInfo.cs
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\CustomVisionEngine.csproj.CopyComplete
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\Plugin.CustomVisionEngine.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\obj\Debug\xamarin.ios10\Plugin.CustomVisionEngine.pdb

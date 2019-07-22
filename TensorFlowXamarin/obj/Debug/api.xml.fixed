@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="org.tensorflow" jni-name="org/tensorflow">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;org.tensorflow.DataType&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="DataType" static="false" visibility="public" jni-signature="Lorg/tensorflow/DataType;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromClass" jni-signature="(Ljava/lang/Class;)Lorg/tensorflow/DataType;" bridge="false" native="false" return="org.tensorflow.DataType" jni-return="Lorg/tensorflow/DataType;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Class&lt;?&gt;" jni-type="Ljava/lang/Class&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/DataType;" bridge="false" native="false" return="org.tensorflow.DataType" jni-return="Lorg/tensorflow/DataType;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lorg/tensorflow/DataType;" bridge="false" native="false" return="org.tensorflow.DataType[]" jni-return="[Lorg/tensorflow/DataType;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="BOOL" jni-signature="Lorg/tensorflow/DataType;" static="true" transient="false" type="org.tensorflow.DataType" type-generic-aware="org.tensorflow.DataType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DOUBLE" jni-signature="Lorg/tensorflow/DataType;" static="true" transient="false" type="org.tensorflow.DataType" type-generic-aware="org.tensorflow.DataType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLOAT" jni-signature="Lorg/tensorflow/DataType;" static="true" transient="false" type="org.tensorflow.DataType" type-generic-aware="org.tensorflow.DataType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="INT32" jni-signature="Lorg/tensorflow/DataType;" static="true" transient="false" type="org.tensorflow.DataType" type-generic-aware="org.tensorflow.DataType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="INT64" jni-signature="Lorg/tensorflow/DataType;" static="true" transient="false" type="org.tensorflow.DataType" type-generic-aware="org.tensorflow.DataType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="STRING" jni-signature="Lorg/tensorflow/DataType;" static="true" transient="false" type="org.tensorflow.DataType" type-generic-aware="org.tensorflow.DataType" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="UINT8" jni-signature="Lorg/tensorflow/DataType;" static="true" transient="false" type="org.tensorflow.DataType" type-generic-aware="org.tensorflow.DataType" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Graph" static="false" visibility="public" jni-signature="Lorg/tensorflow/Graph;">
+      <implements name="java.lang.AutoCloseable" name-generic-aware="java.lang.AutoCloseable" jni-type="Ljava/lang/AutoCloseable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="Graph" jni-signature="()V" bridge="false" static="false" type="org.tensorflow.Graph" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="importGraphDef" jni-signature="([B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="importGraphDef" jni-signature="([BLjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="opBuilder" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="operation" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/Operation;" bridge="false" native="false" return="org.tensorflow.Operation" jni-return="Lorg/tensorflow/Operation;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="operations" jni-signature="()Ljava/util/Iterator;" bridge="false" native="false" return="java.util.Iterator&lt;org.tensorflow.Operation&gt;" jni-return="Ljava/util/Iterator&lt;Lorg/tensorflow/Operation;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toGraphDef" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Graph.1" static="true" visibility="" jni-signature="Lorg/tensorflow/Graph$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Graph.OperationIterator" static="true" visibility="private" jni-signature="Lorg/tensorflow/Graph$OperationIterator;">
+      <implements name="java.util.Iterator" name-generic-aware="java.util.Iterator&lt;org.tensorflow.Operation&gt;" jni-type="Ljava/util/Iterator&lt;Lorg/tensorflow/Operation;&gt;;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasNext" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="next" jni-signature="()Lorg/tensorflow/Operation;" bridge="false" native="false" return="org.tensorflow.Operation" jni-return="Lorg/tensorflow/Operation;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="remove" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Graph.Reference" static="false" visibility="" jni-signature="Lorg/tensorflow/Graph$Reference;">
+      <implements name="java.lang.AutoCloseable" name-generic-aware="java.lang.AutoCloseable" jni-type="Ljava/lang/AutoCloseable;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="nativeHandle" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="NativeLibrary" static="false" visibility="" jni-signature="Lorg/tensorflow/NativeLibrary;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="load" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="Operand" static="false" visibility="public" jni-signature="Lorg/tensorflow/Operand;">
+      <typeParameters>
+        <typeParameter name="T" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+      </typeParameters>
+      <method abstract="true" deprecated="not deprecated" final="false" name="asOutput" jni-signature="()Lorg/tensorflow/Output;" bridge="false" native="false" return="org.tensorflow.Output&lt;T&gt;" jni-return="Lorg/tensorflow/Output&lt;TT;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Operation" static="false" visibility="public" jni-signature="Lorg/tensorflow/Operation;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="inputListLength" jni-signature="(Ljava/lang/String;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="name" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="numOutputs" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="output" jni-signature="(I)Lorg/tensorflow/Output;" bridge="false" native="false" return="org.tensorflow.Output&lt;T&gt;" jni-return="Lorg/tensorflow/Output&lt;TT;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+        </typeParameters>
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="outputList" jni-signature="(II)[Lorg/tensorflow/Output;" bridge="false" native="false" return="org.tensorflow.Output&lt;?&gt;[]" jni-return="[Lorg/tensorflow/Output&lt;*&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="outputListLength" jni-signature="(Ljava/lang/String;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="type" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="OperationBuilder" static="false" visibility="public" jni-signature="Lorg/tensorflow/OperationBuilder;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="addControlInput" jni-signature="(Lorg/tensorflow/Operation;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Operation" jni-type="Lorg/tensorflow/Operation;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addInput" jni-signature="(Lorg/tensorflow/Output;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Output&lt;?&gt;" jni-type="Lorg/tensorflow/Output&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addInputList" jni-signature="([Lorg/tensorflow/Output;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Output&lt;?&gt;[]" jni-type="[Lorg/tensorflow/Output&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="build" jni-signature="()Lorg/tensorflow/Operation;" bridge="false" native="false" return="org.tensorflow.Operation" jni-return="Lorg/tensorflow/Operation;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;Z)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[Z)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="boolean[]" jni-type="[Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[B)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;F)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="float" jni-type="F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[F)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="float[]" jni-type="[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[Ljava/lang/String;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String[]" jni-type="[Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;J)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[J)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long[]" jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;Lorg/tensorflow/DataType;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.tensorflow.DataType" jni-type="Lorg/tensorflow/DataType;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[Lorg/tensorflow/DataType;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.tensorflow.DataType[]" jni-type="[Lorg/tensorflow/DataType;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;Lorg/tensorflow/Shape;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.tensorflow.Shape" jni-type="Lorg/tensorflow/Shape;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[Lorg/tensorflow/Shape;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.tensorflow.Shape[]" jni-type="[Lorg/tensorflow/Shape;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;Lorg/tensorflow/Tensor;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.tensorflow.Tensor&lt;?&gt;" jni-type="Lorg/tensorflow/Tensor&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAttr" jni-signature="(Ljava/lang/String;[Lorg/tensorflow/Tensor;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.tensorflow.Tensor&lt;?&gt;[]" jni-type="[Lorg/tensorflow/Tensor&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDevice" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/OperationBuilder;" bridge="false" native="false" return="org.tensorflow.OperationBuilder" jni-return="Lorg/tensorflow/OperationBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Output" static="false" visibility="public" jni-signature="Lorg/tensorflow/Output;">
+      <implements name="org.tensorflow.Operand" name-generic-aware="org.tensorflow.Operand&lt;T&gt;" jni-type="Lorg/tensorflow/Operand&lt;TT;&gt;;"></implements>
+      <typeParameters>
+        <typeParameter name="T" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+      </typeParameters>
+      <constructor deprecated="not deprecated" final="false" name="Output" jni-signature="(Lorg/tensorflow/Operation;I)V" bridge="false" static="false" type="org.tensorflow.Output" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Operation" jni-type="Lorg/tensorflow/Operation;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asOutput" jni-signature="()Lorg/tensorflow/Output;" bridge="false" native="false" return="org.tensorflow.Output&lt;T&gt;" jni-return="Lorg/tensorflow/Output&lt;TT;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dataType" jni-signature="()Lorg/tensorflow/DataType;" bridge="false" native="false" return="org.tensorflow.DataType" jni-return="Lorg/tensorflow/DataType;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="index" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="op" jni-signature="()Lorg/tensorflow/Operation;" bridge="false" native="false" return="org.tensorflow.Operation" jni-return="Lorg/tensorflow/Operation;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="shape" jni-signature="()Lorg/tensorflow/Shape;" bridge="false" native="false" return="org.tensorflow.Shape" jni-return="Lorg/tensorflow/Shape;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="SavedModelBundle" static="false" visibility="public" jni-signature="Lorg/tensorflow/SavedModelBundle;">
+      <implements name="java.lang.AutoCloseable" name-generic-aware="java.lang.AutoCloseable" jni-type="Ljava/lang/AutoCloseable;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="graph" jni-signature="()Lorg/tensorflow/Graph;" bridge="false" native="false" return="org.tensorflow.Graph" jni-return="Lorg/tensorflow/Graph;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="load" jni-signature="(Ljava/lang/String;[Ljava/lang/String;)Lorg/tensorflow/SavedModelBundle;" bridge="false" native="false" return="org.tensorflow.SavedModelBundle" jni-return="Lorg/tensorflow/SavedModelBundle;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String..." jni-type="[Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="metaGraphDef" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="session" jni-signature="()Lorg/tensorflow/Session;" bridge="false" native="false" return="org.tensorflow.Session" jni-return="Lorg/tensorflow/Session;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Session" static="false" visibility="public" jni-signature="Lorg/tensorflow/Session;">
+      <implements name="java.lang.AutoCloseable" name-generic-aware="java.lang.AutoCloseable" jni-type="Ljava/lang/AutoCloseable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="Session" jni-signature="(Lorg/tensorflow/Graph;)V" bridge="false" static="false" type="org.tensorflow.Session" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Graph" jni-type="Lorg/tensorflow/Graph;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Session" jni-signature="(Lorg/tensorflow/Graph;[B)V" bridge="false" static="false" type="org.tensorflow.Session" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Graph" jni-type="Lorg/tensorflow/Graph;"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="runner" jni-signature="()Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Session.Run" static="true" visibility="public" jni-signature="Lorg/tensorflow/Session$Run;">
+      <constructor deprecated="not deprecated" final="false" name="Session.Run" jni-signature="()V" bridge="false" static="false" type="org.tensorflow.Session.Run" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="metadata" jni-signature="[B" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="outputs" jni-signature="Ljava/util/List;" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;org.tensorflow.Tensor&lt;?&gt;&gt;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Session.Runner" static="false" visibility="public" jni-signature="Lorg/tensorflow/Session$Runner;">
+      <constructor deprecated="not deprecated" final="false" name="Session.Runner" jni-signature="(Lorg/tensorflow/Session;)V" bridge="false" static="false" type="org.tensorflow.Session.Runner" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addTarget" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addTarget" jni-signature="(Lorg/tensorflow/Operation;)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Operation" jni-type="Lorg/tensorflow/Operation;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;ILorg/tensorflow/Tensor;)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="org.tensorflow.Tensor&lt;?&gt;" jni-type="Lorg/tensorflow/Tensor&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;Lorg/tensorflow/Tensor;)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.tensorflow.Tensor&lt;?&gt;" jni-type="Lorg/tensorflow/Tensor&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Lorg/tensorflow/Output;Lorg/tensorflow/Tensor;)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Output&lt;?&gt;" jni-type="Lorg/tensorflow/Output&lt;*&gt;;"></parameter>
+        <parameter name="p1" type="org.tensorflow.Tensor&lt;?&gt;" jni-type="Lorg/tensorflow/Tensor&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;I)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Lorg/tensorflow/Output;)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Output&lt;?&gt;" jni-type="Lorg/tensorflow/Output&lt;*&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()Ljava/util/List;" bridge="false" native="false" return="java.util.List&lt;org.tensorflow.Tensor&lt;?&gt;&gt;" jni-return="Ljava/util/List&lt;Lorg/tensorflow/Tensor&lt;*&gt;;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="runAndFetchMetadata" jni-signature="()Lorg/tensorflow/Session$Run;" bridge="false" native="false" return="org.tensorflow.Session.Run" jni-return="Lorg/tensorflow/Session$Run;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOptions" jni-signature="([B)Lorg/tensorflow/Session$Runner;" bridge="false" native="false" return="org.tensorflow.Session.Runner" jni-return="Lorg/tensorflow/Session$Runner;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Session.Runner.Reference" static="false" visibility="private" jni-signature="Lorg/tensorflow/Session$Runner$Reference;">
+      <implements name="java.lang.AutoCloseable" name-generic-aware="java.lang.AutoCloseable" jni-type="Ljava/lang/AutoCloseable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="Session.Runner.Reference" jni-signature="(Lorg/tensorflow/Session$Runner;)V" bridge="false" static="false" type="org.tensorflow.Session.Runner.Reference" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Shape" static="false" visibility="public" jni-signature="Lorg/tensorflow/Shape;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="make" jni-signature="(J[J)Lorg/tensorflow/Shape;" bridge="false" native="false" return="org.tensorflow.Shape" jni-return="Lorg/tensorflow/Shape;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="numDimensions" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="scalar" jni-signature="()Lorg/tensorflow/Shape;" bridge="false" native="false" return="org.tensorflow.Shape" jni-return="Lorg/tensorflow/Shape;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="size" jni-signature="(I)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unknown" jni-signature="()Lorg/tensorflow/Shape;" bridge="false" native="false" return="org.tensorflow.Shape" jni-return="Lorg/tensorflow/Shape;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Tensor" static="false" visibility="public" jni-signature="Lorg/tensorflow/Tensor;">
+      <implements name="java.lang.AutoCloseable" name-generic-aware="java.lang.AutoCloseable" jni-type="Ljava/lang/AutoCloseable;"></implements>
+      <typeParameters>
+        <typeParameter name="T" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+      </typeParameters>
+      <method abstract="false" deprecated="not deprecated" final="false" name="booleanValue" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="bytesValue" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="copyTo" jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;" bridge="false" native="false" return="U" jni-return="TU;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="U" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+        </typeParameters>
+        <parameter name="p0" type="U" jni-type="TU;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(Ljava/lang/Class;[JLjava/nio/ByteBuffer;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;T&gt;" jni-return="Lorg/tensorflow/Tensor&lt;TT;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+        </typeParameters>
+        <parameter name="p0" type="java.lang.Class&lt;T&gt;" jni-type="Ljava/lang/Class&lt;TT;&gt;;"></parameter>
+        <parameter name="p1" type="long[]" jni-type="[J"></parameter>
+        <parameter name="p2" type="java.nio.ByteBuffer" jni-type="Ljava/nio/ByteBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(Ljava/lang/Object;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;?&gt;" jni-return="Lorg/tensorflow/Tensor&lt;*&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(Ljava/lang/Object;Ljava/lang/Class;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;T&gt;" jni-return="Lorg/tensorflow/Tensor&lt;TT;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+        </typeParameters>
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p1" type="java.lang.Class&lt;T&gt;" jni-type="Ljava/lang/Class&lt;TT;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([JLjava/nio/DoubleBuffer;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[]" jni-type="[J"></parameter>
+        <parameter name="p1" type="java.nio.DoubleBuffer" jni-type="Ljava/nio/DoubleBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([JLjava/nio/FloatBuffer;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[]" jni-type="[J"></parameter>
+        <parameter name="p1" type="java.nio.FloatBuffer" jni-type="Ljava/nio/FloatBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([JLjava/nio/IntBuffer;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[]" jni-type="[J"></parameter>
+        <parameter name="p1" type="java.nio.IntBuffer" jni-type="Ljava/nio/IntBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([JLjava/nio/LongBuffer;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[]" jni-type="[J"></parameter>
+        <parameter name="p1" type="java.nio.LongBuffer" jni-type="Ljava/nio/LongBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dataType" jni-signature="()Lorg/tensorflow/DataType;" bridge="false" native="false" return="org.tensorflow.DataType" jni-return="Lorg/tensorflow/DataType;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="doubleValue" jni-signature="()D" bridge="false" native="false" return="double" jni-return="D" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="expect" jni-signature="(Ljava/lang/Class;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;U&gt;" jni-return="Lorg/tensorflow/Tensor&lt;TU;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="U" classBound="java.lang.Object" jni-classBound="Ljava/lang/Object;"></typeParameter>
+        </typeParameters>
+        <parameter name="p0" type="java.lang.Class&lt;U&gt;" jni-type="Ljava/lang/Class&lt;TU;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="floatValue" jni-signature="()F" bridge="false" native="false" return="float" jni-return="F" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="intValue" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="longValue" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="numBytes" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="numDimensions" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="numElements" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="shape" jni-signature="()[J" bridge="false" native="false" return="long[]" jni-return="[J" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeTo" jni-signature="(Ljava/nio/ByteBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.nio.ByteBuffer" jni-type="Ljava/nio/ByteBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeTo" jni-signature="(Ljava/nio/DoubleBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.nio.DoubleBuffer" jni-type="Ljava/nio/DoubleBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeTo" jni-signature="(Ljava/nio/FloatBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.nio.FloatBuffer" jni-type="Ljava/nio/FloatBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeTo" jni-signature="(Ljava/nio/IntBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.nio.IntBuffer" jni-type="Ljava/nio/IntBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeTo" jni-signature="(Ljava/nio/LongBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.nio.LongBuffer" jni-type="Ljava/nio/LongBuffer;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Tensor.1" static="true" visibility="" jni-signature="Lorg/tensorflow/Tensor$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="TensorFlow" static="false" visibility="public" jni-signature="Lorg/tensorflow/TensorFlow;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="loadLibrary" jni-signature="(Ljava/lang/String;)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registeredOpList" jni-signature="()[B" bridge="false" native="true" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="version" jni-signature="()Ljava/lang/String;" bridge="false" native="true" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.RuntimeException" extends-generic-aware="java.lang.RuntimeException" jni-extends="Ljava/lang/RuntimeException;" final="true" name="TensorFlowException" static="false" visibility="public" jni-signature="Lorg/tensorflow/TensorFlowException;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Tensors" static="false" visibility="public" jni-signature="Lorg/tensorflow/Tensors;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(Z)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Boolean&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Boolean;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([Z)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Boolean&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Boolean;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean[]" jni-type="[Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[Z)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Boolean&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Boolean;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean[][]" jni-type="[[Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[Z)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Boolean&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Boolean;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean[][][]" jni-type="[[[Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[Z)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Boolean&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Boolean;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean[][][][]" jni-type="[[[[Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[Z)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Boolean&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Boolean;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean[][][][][]" jni-type="[[[[[Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[[Z)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Boolean&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Boolean;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean[][][][][][]" jni-type="[[[[[[Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([B)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[B)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[][]" jni-type="[[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[B)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[][][]" jni-type="[[[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[B)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[][][][]" jni-type="[[[[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[B)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[][][][][]" jni-type="[[[[[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[[B)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[][][][][][]" jni-type="[[[[[[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(D)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double" jni-type="D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([D)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double[]" jni-type="[D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[D)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double[][]" jni-type="[[D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[D)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double[][][]" jni-type="[[[D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[D)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double[][][][]" jni-type="[[[[D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[D)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double[][][][][]" jni-type="[[[[[D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[[D)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Double&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Double;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double[][][][][][]" jni-type="[[[[[[D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(F)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float" jni-type="F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([F)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[]" jni-type="[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[F)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[][]" jni-type="[[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[F)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[][][]" jni-type="[[[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[F)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[][][][]" jni-type="[[[[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[F)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[][][][][]" jni-type="[[[[[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[[F)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Float&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Float;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="float[][][][][][]" jni-type="[[[[[[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(I)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([I)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[]" jni-type="[I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[I)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[][]" jni-type="[[I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[I)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[][][]" jni-type="[[[I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[I)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[][][][]" jni-type="[[[[I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[I)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[][][][][]" jni-type="[[[[[I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[[I)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Integer&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Integer;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[][][][][][]" jni-type="[[[[[[I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(Ljava/lang/String;Ljava/nio/charset/Charset;)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.String&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/String;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="(J)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([J)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[]" jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[J)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[][]" jni-type="[[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[J)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[][][]" jni-type="[[[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[J)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[][][][]" jni-type="[[[[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[J)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[][][][][]" jni-type="[[[[[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" jni-signature="([[[[[[J)Lorg/tensorflow/Tensor;" bridge="false" native="false" return="org.tensorflow.Tensor&lt;java.lang.Long&gt;" jni-return="Lorg/tensorflow/Tensor&lt;Ljava/lang/Long;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long[][][][][][]" jni-type="[[[[[[J"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="org.tensorflow.contrib.android" jni-name="org/tensorflow/contrib/android">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="RunStats" static="false" visibility="public" jni-signature="Lorg/tensorflow/contrib/android/RunStats;">
+      <implements name="java.lang.AutoCloseable" name-generic-aware="java.lang.AutoCloseable" jni-type="Ljava/lang/AutoCloseable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="RunStats" jni-signature="()V" bridge="false" static="false" type="org.tensorflow.contrib.android.RunStats" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="add" jni-signature="([B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="runOptions" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="summary" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="true" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="TensorFlowInferenceInterface" static="false" visibility="public" jni-signature="Lorg/tensorflow/contrib/android/TensorFlowInferenceInterface;">
+      <constructor deprecated="not deprecated" final="false" name="TensorFlowInferenceInterface" jni-signature="(Landroid/content/res/AssetManager;Ljava/lang/String;)V" bridge="false" static="false" type="org.tensorflow.contrib.android.TensorFlowInferenceInterface" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.res.AssetManager" jni-type="Landroid/content/res/AssetManager;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TensorFlowInferenceInterface" jni-signature="(Ljava/io/InputStream;)V" bridge="false" static="false" type="org.tensorflow.contrib.android.TensorFlowInferenceInterface" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.io.InputStream" jni-type="Ljava/io/InputStream;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TensorFlowInferenceInterface" jni-signature="(Lorg/tensorflow/Graph;)V" bridge="false" static="false" type="org.tensorflow.contrib.android.TensorFlowInferenceInterface" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.tensorflow.Graph" jni-type="Lorg/tensorflow/Graph;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;[Z[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="boolean[]" jni-type="[Z"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;[B[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;[D[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="double[]" jni-type="[D"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;[F[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="float[]" jni-type="[F"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;[I[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int[]" jni-type="[I"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;Ljava/nio/ByteBuffer;[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.ByteBuffer" jni-type="Ljava/nio/ByteBuffer;"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;Ljava/nio/DoubleBuffer;[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.DoubleBuffer" jni-type="Ljava/nio/DoubleBuffer;"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;Ljava/nio/FloatBuffer;[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.FloatBuffer" jni-type="Ljava/nio/FloatBuffer;"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;Ljava/nio/IntBuffer;[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.IntBuffer" jni-type="Ljava/nio/IntBuffer;"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;Ljava/nio/LongBuffer;[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.LongBuffer" jni-type="Ljava/nio/LongBuffer;"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feed" jni-signature="(Ljava/lang/String;[J[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long[]" jni-type="[J"></parameter>
+        <parameter name="p2" type="long..." jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feedString" jni-signature="(Ljava/lang/String;[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="feedString" jni-signature="(Ljava/lang/String;[[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="byte[][]" jni-type="[[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;[D)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="double[]" jni-type="[D"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;[F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="float[]" jni-type="[F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;[I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int[]" jni-type="[I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;Ljava/nio/ByteBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.ByteBuffer" jni-type="Ljava/nio/ByteBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;Ljava/nio/DoubleBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.DoubleBuffer" jni-type="Ljava/nio/DoubleBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;Ljava/nio/FloatBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.FloatBuffer" jni-type="Ljava/nio/FloatBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;Ljava/nio/IntBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.IntBuffer" jni-type="Ljava/nio/IntBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;Ljava/nio/LongBuffer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.nio.LongBuffer" jni-type="Ljava/nio/LongBuffer;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Ljava/lang/String;[J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long[]" jni-type="[J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStatString" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="graph" jni-signature="()Lorg/tensorflow/Graph;" bridge="false" native="false" return="org.tensorflow.Graph" jni-return="Lorg/tensorflow/Graph;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="graphOperation" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/Operation;" bridge="false" native="false" return="org.tensorflow.Operation" jni-return="Lorg/tensorflow/Operation;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="([Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String[]" jni-type="[Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="([Ljava/lang/String;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String[]" jni-type="[Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="TensorFlowInferenceInterface.TensorId" static="true" visibility="private" jni-signature="Lorg/tensorflow/contrib/android/TensorFlowInferenceInterface$TensorId;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="parse" jni-signature="(Ljava/lang/String;)Lorg/tensorflow/contrib/android/TensorFlowInferenceInterface$TensorId;" bridge="false" native="false" return="java.lang.Object" jni-return="Lorg/tensorflow/contrib/android/TensorFlowInferenceInterface$TensorId;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="org.tensorflow.types" jni-name="org/tensorflow/types">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="UInt8" static="false" visibility="public" jni-signature="Lorg/tensorflow/types/UInt8;"></class>
+  </package>
+</api>

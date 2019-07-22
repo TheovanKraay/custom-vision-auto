@@ -1,0 +1,6 @@
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\TensorFlowXamarin\bin\Debug\TensorFlowXamarin.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\TensorFlowXamarin\bin\Debug\TensorFlowXamarin.pdb
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\TensorFlowXamarin\obj\Debug\TensorFlowXamarin.csprojAssemblyReference.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\TensorFlowXamarin\obj\Debug\TensorFlowXamarin.csproj.CoreCompileInputs.cache
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\TensorFlowXamarin\obj\Debug\TensorFlowXamarin.dll
+C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\TensorFlowXamarin\obj\Debug\TensorFlowXamarin.pdb
