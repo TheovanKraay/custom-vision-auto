@@ -9,8 +9,8 @@ namespace CustomVisionCompanion.Services
 {
     public interface IMediaService
     {
-        Task<MediaFile> TakePhotoAsync();
+        Task<List<MediaFile>> TakePhotoAsync();
 
-        Task<MediaFile> PickPhotoAsync();
+        Task<List<MediaFile>> PickPhotoAsync();
     }
 }

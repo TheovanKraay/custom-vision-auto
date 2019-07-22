@@ -2,9 +2,11 @@
 using Plugin.Media.Abstractions;
 using Plugin.Permissions.Abstractions;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CustomVisionCompanion.Services
@@ -20,12 +22,13 @@ namespace CustomVisionCompanion.Services
             this.permissionService = permissionService;
         }
 
-        public async Task<MediaFile> TakePhotoAsync()
+        public async Task<List<MediaFile>> TakePhotoAsync()
         {
             var permissions = await permissionService.CheckMultipleAsync(Permission.Camera, Permission.Storage);
             if (permissions.TryGetValue(Permission.Camera, out var cameraPermissionStatus) && cameraPermissionStatus == PermissionStatus.Granted
                 && permissions.TryGetValue(Permission.Storage, out var storagePermissionStattus) && storagePermissionStattus == PermissionStatus.Granted)
             {
+                List<MediaFile> files = new List<MediaFile>();
                 // Take a photo using the camera.
                 var file = await media.TakePhotoAsync(new StoreCameraMediaOptions
                 {
@@ -36,19 +39,33 @@ namespace CustomVisionCompanion.Services
                     CompressionQuality = 85
                 });
 
-                return file;
+                
+                var file2 = await media.TakePhotoAsync(new StoreCameraMediaOptions
+                {
+                    SaveToAlbum = false,
+                    PhotoSize = PhotoSize.MaxWidthHeight,
+                    AllowCropping = false,
+                    MaxWidthHeight = 1920,
+                    CompressionQuality = 85
+                });
+
+                files.Add(file);
+                files.Add(file2);
+
+                return files;
             }
 
             return null;
         }
 
-        public async Task<MediaFile> PickPhotoAsync()
+        public async Task<List<MediaFile>> PickPhotoAsync()
         {
             var permissions = await permissionService.CheckMultipleAsync(Permission.Photos, Permission.Storage);
             if (permissions.TryGetValue(Permission.Photos, out var photosPermissionStatus) && photosPermissionStatus == PermissionStatus.Granted
                 && permissions.TryGetValue(Permission.Storage, out var storagePermissionStattus) && storagePermissionStattus == PermissionStatus.Granted)
             {
                 // Pick a photo from the gallery.
+                List<MediaFile> files = new List<MediaFile>();
                 var file = await media.PickPhotoAsync(new PickMediaOptions
                 {
                     PhotoSize = PhotoSize.MaxWidthHeight,
@@ -56,10 +73,34 @@ namespace CustomVisionCompanion.Services
                     CompressionQuality = 85
                 });
 
-                return file;
+                var file2 = await media.PickPhotoAsync(new PickMediaOptions
+                {
+                    PhotoSize = PhotoSize.MaxWidthHeight,
+                    MaxWidthHeight = 1920,
+                    CompressionQuality = 85
+                });
+                files.Add(file);
+                files.Add(file2);
+
+
+
+                //return file;
+                return files;
+
+                //return file;
             }
 
             return null;
         }
+
+        //Task<List<MediaFile>> IMediaService.TakePhotoAsync()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //Task<List<MediaFile>> IMediaService.PickPhotoAsync()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

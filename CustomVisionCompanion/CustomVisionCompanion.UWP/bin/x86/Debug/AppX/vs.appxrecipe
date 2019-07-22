@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:05:56.308</Modified>
+      <Modified>2019-07-22T20:41:41.433</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\bin\x86\Debug\CustomVisionCompanion.UWP.exe">
       <PackagePath>entrypoint\CustomVisionCompanion.UWP.exe</PackagePath>
-      <Modified>2019-07-22T20:05:52.219</Modified>
+      <Modified>2019-07-22T20:41:38.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\.nuget\packages\acr.userdialogs\7.0.1\lib\uap10.0.16299\Acr.UserDialogs.dll">
       <PackagePath>Acr.UserDialogs.dll</PackagePath>
@@ -100,11 +100,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion\bin\Debug\netstandard2.0\CustomVisionCompanion.dll">
       <PackagePath>CustomVisionCompanion.dll</PackagePath>
-      <Modified>2019-07-22T20:05:39.238</Modified>
+      <Modified>2019-07-22T20:41:26.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionEngine\bin\Debug\uap10.0.17763\Plugin.CustomVisionEngine.dll">
       <PackagePath>Plugin.CustomVisionEngine.dll</PackagePath>
-      <Modified>2019-07-22T20:05:33.529</Modified>
+      <Modified>2019-07-22T20:28:43.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -112,260 +112,260 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\AppBar\OpenBrowser.png">
       <PackagePath>Assets\AppBar\OpenBrowser.png</PackagePath>
-      <Modified>2019-07-22T20:00:38.706</Modified>
+      <Modified>2019-07-22T20:38:09.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\AppBar\TakePhoto.png">
       <PackagePath>Assets\AppBar\TakePhoto.png</PackagePath>
-      <Modified>2019-07-22T20:00:38.804</Modified>
+      <Modified>2019-07-22T20:38:09.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\AppBar\PickPhoto.png">
       <PackagePath>Assets\AppBar\PickPhoto.png</PackagePath>
-      <Modified>2019-07-22T20:00:38.755</Modified>
+      <Modified>2019-07-22T20:38:09.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.693</Modified>
+      <Modified>2019-07-22T20:38:07.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.736</Modified>
+      <Modified>2019-07-22T20:38:07.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.779</Modified>
+      <Modified>2019-07-22T20:38:07.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.820</Modified>
+      <Modified>2019-07-22T20:38:07.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.861</Modified>
+      <Modified>2019-07-22T20:38:07.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.899</Modified>
+      <Modified>2019-07-22T20:38:07.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.941</Modified>
+      <Modified>2019-07-22T20:38:07.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:36.982</Modified>
+      <Modified>2019-07-22T20:38:08.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.028</Modified>
+      <Modified>2019-07-22T20:38:08.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.069</Modified>
+      <Modified>2019-07-22T20:38:08.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.110</Modified>
+      <Modified>2019-07-22T20:38:08.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.161</Modified>
+      <Modified>2019-07-22T20:38:08.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.204</Modified>
+      <Modified>2019-07-22T20:38:08.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.248</Modified>
+      <Modified>2019-07-22T20:38:08.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.294</Modified>
+      <Modified>2019-07-22T20:38:08.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.337</Modified>
+      <Modified>2019-07-22T20:38:08.399</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.381</Modified>
+      <Modified>2019-07-22T20:38:08.434</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.424</Modified>
+      <Modified>2019-07-22T20:38:08.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.467</Modified>
+      <Modified>2019-07-22T20:38:08.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.511</Modified>
+      <Modified>2019-07-22T20:38:08.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.569</Modified>
+      <Modified>2019-07-22T20:38:08.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.610</Modified>
+      <Modified>2019-07-22T20:38:08.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.651</Modified>
+      <Modified>2019-07-22T20:38:08.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.694</Modified>
+      <Modified>2019-07-22T20:38:08.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.733</Modified>
+      <Modified>2019-07-22T20:38:08.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.777</Modified>
+      <Modified>2019-07-22T20:38:08.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.821</Modified>
+      <Modified>2019-07-22T20:38:08.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.870</Modified>
+      <Modified>2019-07-22T20:38:08.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.913</Modified>
+      <Modified>2019-07-22T20:38:08.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:37.958</Modified>
+      <Modified>2019-07-22T20:38:08.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.005</Modified>
+      <Modified>2019-07-22T20:38:09.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.051</Modified>
+      <Modified>2019-07-22T20:38:09.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.090</Modified>
+      <Modified>2019-07-22T20:38:09.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.134</Modified>
+      <Modified>2019-07-22T20:38:09.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.175</Modified>
+      <Modified>2019-07-22T20:38:09.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.258</Modified>
+      <Modified>2019-07-22T20:38:09.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.302</Modified>
+      <Modified>2019-07-22T20:38:09.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.341</Modified>
+      <Modified>2019-07-22T20:38:09.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.379</Modified>
+      <Modified>2019-07-22T20:38:09.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.422</Modified>
+      <Modified>2019-07-22T20:38:09.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.464</Modified>
+      <Modified>2019-07-22T20:38:09.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.501</Modified>
+      <Modified>2019-07-22T20:38:09.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.537</Modified>
+      <Modified>2019-07-22T20:38:09.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.574</Modified>
+      <Modified>2019-07-22T20:38:09.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-22T20:00:38.636</Modified>
+      <Modified>2019-07-22T20:38:09.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-07-22T20:00:39.036</Modified>
+      <Modified>2019-07-22T20:21:44.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\Assets\Models\Computer.onnx">
       <PackagePath>Assets\Models\Computer.onnx</PackagePath>
-      <Modified>2019-07-22T20:00:38.924</Modified>
+      <Modified>2019-07-22T20:38:09.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\bin\x86\Debug\CustomVisionCompanion.UWP.xr.xml">
       <PackagePath>CustomVisionCompanion.UWP.xr.xml</PackagePath>
-      <Modified>2019-07-22T20:05:51.748</Modified>
+      <Modified>2019-07-22T20:29:00.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-07-22T20:05:51.828</Modified>
+      <Modified>2019-07-22T20:41:38.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-07-22T20:05:51.831</Modified>
+      <Modified>2019-07-22T20:41:38.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -389,11 +389,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-07-22T20:05:53.176</Modified>
+      <Modified>2019-07-22T20:29:01.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thvankra\OneDrive - Microsoft\documents\github\custom-vision-auto\Src\CustomVisionCompanion\CustomVisionCompanion.UWP\bin\x86\Debug\Core\CustomVisionCompanion.UWP.exe">
       <PackagePath>CustomVisionCompanion.UWP.exe</PackagePath>
-      <Modified>2019-07-22T20:05:56.262</Modified>
+      <Modified>2019-07-22T20:41:41.369</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
